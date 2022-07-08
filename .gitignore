@@ -1,21 +1,7 @@
-# Test Coverage
-reports
-coverage
-junit.xml
-
 # macOS
 .DS_Store
 .AppleDouble
 .LSOverride
-
-# yarn
-.yarn/*
-!.yarn/cache
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions
 
 # vscode
 .vscode/*
@@ -30,3 +16,17 @@ junit.xml
 
 # Built Visual Studio Code Extensions
 *.vsix
+
+# yarn
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Test Coverage
+reports
+coverage
+junit.xml
