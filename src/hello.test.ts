@@ -2,6 +2,6 @@ import { hello } from "./hello";
 
 describe("hello", () => {
   it("returns a familiar phrase", () => {
-    expect(hello()).toBe("Hello, world!");
+    expect(hello()).toEqual("Hello, world!");
   });
 });
